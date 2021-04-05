@@ -1,0 +1,35 @@
+.header {
+    background-color: #fff;
+    position: ;
+}
+
+.header-title-color {
+    font-weight: 700;
+    color: #2196F3;
+    font-family: Raleway;
+}
+
+.header-list {
+    display: inline-block;
+    margin: 32px;
+}
+
+.header-link {
+    font-family: ;
+    color: #212121;
+}
+
+.header-link:hover {
+    color: #2196F3;
+}
+
+.btn {
+    height: 38px;
+    background: #F5F4FA;
+    color: #212121;
+}
+
+.btn:hover {
+    background: #2196F3;
+    color: #FFF;
+}
