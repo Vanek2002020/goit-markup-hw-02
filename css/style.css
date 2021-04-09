@@ -1,12 +1,32 @@
+:root {
+    --font-family-Rob: Roboto;
+    --font-family-Ral: Raleway;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+    --color-sea: #2196F3;
+    --color-white: #fff;
+    --color-black: #212121;
+}
+
+body {
+    font-family: Roboto;
+    color: #212121;
+}
+
 .header {
-    background-color: #fff;
+    background-color: var(--color-white);
     position: ;
 }
 
+.header-title {
+    font-family: var(--font-family-Ral);
+    font-weight: var(--font-weight-bold);
+}
+
 .header-title-color {
-    font-weight: 700;
-    color: #2196F3;
-    font-family: Raleway;
+    color: var(--color-sea);
 }
 
 .header-list {
@@ -15,21 +35,90 @@
 }
 
 .header-link {
-    font-family: ;
-    color: #212121;
+    font-family: var(--font-family-Rob);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-black);
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 .header-link:hover {
-    color: #2196F3;
+    color: var(--color-sea);
 }
 
-.btn {
-    height: 38px;
-    background: #F5F4FA;
-    color: #212121;
+.main-title {
+    font-family: var(- --font-family-Rob);
+    font-weight: var(--font-weight-black);
+    font-size: 44px;
+    line-height: 1.36;
 }
 
-.btn:hover {
-    background: #2196F3;
-    color: #FFF;
+.main-title-button {
+    background-color: var(--color-sea);
+    color: var(--color-white);
+    font-family: var(--font-family-Rob);
+    font-weight: var(--font-weight-bold);
+    font-size: 16px;
+    line-height: 1.87;
+    cursor: pointer;
+}
+
+.ul-title-bold {
+    font-family: var(--font-family-Rob);
+    font-weight: var(--font-weight-bold);
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.ul-title-par {
+    font-family: var(--font-family-Rob);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.section-title {
+    font-family: var(--font-family-Rob);
+    font-weight: var(--font-weight-regular);
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.team-name {
+    font-family: var(--font-family-Rob);
+    font-weight: var(--font-weight-medium);
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.team-special {
+    font-family: var(--font-family-Rob);
+    font-weight: var(--font-weight-regular);
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.footer-li {
+    font-family: var(--font-family-Rob);
+    font-weight: var(--font-weight-regular);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.footer-li:hover {
+    color: var(--color-sea);
+}
+
+.filters-btn {
+    font-family: var(--font-family-Rob);
+    font-weight: var(--font-weight-medium);
+    font-size: 16px;
+    line-height: 1.62;
+    background: var(--color-white);
+    color: var(--color-black);
+    cursor: pointer;
+}
+
+.filters-btn:hover {
+    background: var(--color-sea);
+    color: var(--color-white);
 }
