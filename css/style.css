@@ -30,6 +30,10 @@ body {
     color: var(--color-sea);
 }
 
+.header-title-color-b {
+    color: var(--color-black);
+}
+
 .header-list {
     display: inline-block;
 }
@@ -40,6 +44,7 @@ body {
     text-decoration: none;
     font-size: 14px;
     line-height: 1.14;
+    color: var(--color-black);
 }
 
 .header-link-style:hover,
@@ -47,13 +52,23 @@ body {
     color: var(--color-sea);
 }
 
+.header-link-style-contacts {
+    color: #757575;
+}
+
+.header-link-style-contacts:hover,
+.header-link-style-contacts:active {
+    color: var(--color-sea);
+}
+
 .main-section {
-    background-color: var(--color-white);
+    background-color: #2F303A;
 }
 
 .main-title {
     font-family: var(--font-family-Rob);
     font-weight: var(--font-weight-black);
+    color: var(--color-white);
     font-size: 44px;
     line-height: 1.36;
 }
@@ -77,6 +92,7 @@ body {
 
 .ul-title-par {
     font-family: var(--font-family-Rob);
+    font-weight: var(--font-weight-regular);
     color: #757575;
     font-size: 14px;
     line-height: 1.71;
@@ -92,11 +108,13 @@ body {
 .section-title-portf {
     font-family: var(--font-family-Rob);
     font-weight: var(--font-weight-bold);
+    font-size: 18px;
 }
 
 .section-title-par {
     font-family: var(--font-family-Rob);
     font-weight: var(--font-weight-regular);
+    font-size: 16px;
     color: #757575;
 }
 
@@ -114,6 +132,18 @@ body {
     font-size: 16px;
     line-height: 1.18;
     color: #757575;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-adress {
+    font-style: normal;
+}
+
+.footer-title-color-w {
+    color: var(--color-white);
 }
 
 .footer-li-map {
