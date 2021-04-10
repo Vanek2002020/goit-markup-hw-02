@@ -17,12 +17,12 @@ body {
 
 .header {
     background-color: var(--color-white);
-    position: ;
 }
 
 .header-title {
     font-family: var(--font-family-Ral);
     font-weight: var(--font-weight-bold);
+    font-size: 26px;
 }
 
 .header-title-color {
@@ -31,23 +31,27 @@ body {
 
 .header-list {
     display: inline-block;
-    margin: 32px;
 }
 
-.header-link {
+.header-link-style {
     font-family: var(--font-family-Rob);
     font-weight: var(--font-weight-medium);
-    color: var(--color-black);
+    text-decoration: none;
     font-size: 14px;
     line-height: 1.14;
 }
 
-.header-link:hover {
+.header-link-style:hover,
+.header-link-style:active {
     color: var(--color-sea);
 }
 
+.main-section {
+    background-color: var(--color-white);
+}
+
 .main-title {
-    font-family: var(- --font-family-Rob);
+    font-family: var(--font-family-Rob);
     font-weight: var(--font-weight-black);
     font-size: 44px;
     line-height: 1.36;
@@ -72,15 +76,27 @@ body {
 
 .ul-title-par {
     font-family: var(--font-family-Rob);
+    color: #757575;
     font-size: 14px;
     line-height: 1.71;
 }
 
 .section-title {
     font-family: var(--font-family-Rob);
-    font-weight: var(--font-weight-regular);
+    font-weight: var(--font-weight-bold);
     font-size: 36px;
     line-height: 1.16;
+}
+
+.section-title-portf {
+    font-family: var(--font-family-Rob);
+    font-weight: var(--font-weight-bold);
+}
+
+.section-title-par {
+    font-family: var(--font-family-Rob);
+    font-weight: var(--font-weight-regular);
+    color: #757575;
 }
 
 .team-name {
@@ -88,6 +104,7 @@ body {
     font-weight: var(--font-weight-medium);
     font-size: 16px;
     line-height: 1.18;
+    color: #212121;
 }
 
 .team-special {
@@ -95,17 +112,32 @@ body {
     font-weight: var(--font-weight-regular);
     font-size: 16px;
     line-height: 1.18;
+    color: #757575;
+}
+
+.footer-li-map {
+    font-family: var(--font-family-Rob);
+    font-weight: var(--font-weight-regular);
+    font-size: 14px;
+    color: var(--color-white);
+    text-decoration: none;
 }
 
 .footer-li {
     font-family: var(--font-family-Rob);
     font-weight: var(--font-weight-regular);
+    color: #ACACB0;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
 }
 
 .footer-li:hover {
     color: var(--color-sea);
+}
+
+.footer-li-map:hover {
+    color: var(--color-sea)
 }
 
 .filters-btn {
